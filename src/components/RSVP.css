@@ -1,0 +1,176 @@
+.rsvp {
+  background: var(--bg-gradient);
+}
+
+.rsvp-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.rsvp-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-gold);
+  filter: grayscale(100%);
+}
+
+.rsvp-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.rsvp-description {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.rsvp-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.feature-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--primary-gold);
+  filter: grayscale(100%);
+}
+
+.rsvp-action {
+  text-align: center;
+}
+
+.rsvp-btn {
+  font-size: 1.1rem;
+  padding: 15px 40px;
+  min-width: 250px;
+}
+
+.rsvp-note {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.note-content {
+  background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 4px solid #4caf50;
+}
+
+.note-content h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.note-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.note-content li {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.note-content li::before {
+  content: '•';
+  color: #4caf50;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .rsvp-card {
+    padding: 2rem;
+    margin: 0 auto 2rem;
+  }
+  
+  .rsvp-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .rsvp-card h3 {
+    font-size: 1.8rem;
+  }
+  
+  .rsvp-description {
+    font-size: 1rem;
+  }
+  
+  .rsvp-btn {
+    font-size: 1rem;
+    padding: 12px 30px;
+    min-width: 200px;
+  }
+  
+  .note-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .rsvp-card {
+    padding: 1.5rem;
+  }
+  
+  .rsvp-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .rsvp-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .rsvp-description {
+    font-size: 0.9rem;
+  }
+  
+  .feature-item {
+    font-size: 0.9rem;
+  }
+  
+  .rsvp-btn {
+    font-size: 0.9rem;
+    padding: 10px 25px;
+    min-width: 180px;
+  }
+  
+  .note-content {
+    padding: 1rem;
+  }
+  
+  .note-content h4 {
+    font-size: 1.1rem;
+  }
+}

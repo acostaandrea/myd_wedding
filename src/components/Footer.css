@@ -1,0 +1,130 @@
+.footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 3rem 0 2rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-main {
+  margin-bottom: 2rem;
+}
+
+.footer-names h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.wedding-date {
+  font-size: 1.2rem;
+  color: #bdc3c7;
+  margin-bottom: 2rem;
+}
+
+.footer-quote {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer-quote p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ecf0f1;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  color: #bdc3c7;
+}
+
+.footer-divider {
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  margin: 2rem auto;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: var(--primary-gold);
+  margin-bottom: 1rem;
+}
+
+.footer-section p {
+  color: #bdc3c7;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  border-top: 1px solid #34495e;
+  padding-top: 2rem;
+}
+
+.footer-copyright {
+  color: #95a5a6;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 0 1.5rem;
+  }
+  
+  .footer-names h3 {
+    font-size: 2rem;
+  }
+  
+  .wedding-date {
+    font-size: 1rem;
+  }
+  
+  .footer-quote p {
+    font-size: 1.1rem;
+  }
+  
+  .footer-info {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-names h3 {
+    font-size: 1.8rem;
+  }
+  
+  .footer-quote p {
+    font-size: 1rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+  
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+}
