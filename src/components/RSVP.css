@@ -1,61 +1,56 @@
 .rsvp {
-  background: var(--bg-gradient);
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
 }
 
-.rsvp-card {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 3rem;
-  border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+.rsvp-content {
   text-align: center;
-  max-width: 600px;
-  margin: 0 auto 3rem;
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  padding: 4rem 0;
 }
 
-.rsvp-icon {
-  width: 3rem;
-  height: 3rem;
-  margin-bottom: 1.5rem;
+.rsvp-header {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: var(--primary-gold);
-  filter: grayscale(100%);
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-.rsvp-card h3 {
+.section-subtitle {
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-style: italic;
   color: var(--text-dark);
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
 }
 
-.rsvp-description {
+.rsvp-details {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.rsvp-info {
+  margin-bottom: 3rem;
+}
+
+.info-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.dress-code {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   color: var(--text-light);
-  line-height: 1.7;
-  margin-bottom: 2rem;
-}
-
-.rsvp-features {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-}
-
-.feature-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  font-size: 1rem;
-  color: var(--text-light);
-}
-
-.feature-icon {
-  width: 1.2rem;
-  height: 1.2rem;
-  color: var(--primary-gold);
-  filter: grayscale(100%);
+  font-style: italic;
 }
 
 .rsvp-action {
@@ -63,9 +58,31 @@
 }
 
 .rsvp-btn {
-  font-size: 1.1rem;
-  padding: 15px 40px;
-  min-width: 250px;
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--primary-gold);
+  border: 2px solid var(--primary-gold);
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rsvp-btn:hover {
+  background: var(--primary-gold);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.form-icon {
+  width: 1rem;
+  height: 1rem;
 }
 
 .rsvp-note {
@@ -109,68 +126,51 @@
 }
 
 @media (max-width: 768px) {
-  .rsvp-card {
-    padding: 2rem;
-    margin: 0 auto 2rem;
+  .rsvp-content {
+    padding: 3rem 0;
   }
   
-  .rsvp-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+  .section-title {
+    font-size: 1rem;
   }
   
-  .rsvp-card h3 {
-    font-size: 1.8rem;
+  .section-subtitle {
+    font-size: 2rem;
   }
   
-  .rsvp-description {
+  .info-text {
+    font-size: 1.1rem;
+  }
+  
+  .dress-code {
     font-size: 1rem;
   }
   
   .rsvp-btn {
-    font-size: 1rem;
-    padding: 12px 30px;
-    min-width: 200px;
-  }
-  
-  .note-content {
-    padding: 1.5rem;
+    font-size: 0.8rem;
+    padding: 10px 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .rsvp-card {
-    padding: 1.5rem;
-  }
-  
-  .rsvp-icon {
-    width: 2rem;
-    height: 2rem;
-  }
-  
-  .rsvp-card h3 {
-    font-size: 1.5rem;
-  }
-  
-  .rsvp-description {
+  .section-title {
     font-size: 0.9rem;
   }
   
-  .feature-item {
+  .section-subtitle {
+    font-size: 1.8rem;
+  }
+  
+  .info-text {
+    font-size: 1rem;
+  }
+  
+  .dress-code {
     font-size: 0.9rem;
   }
   
   .rsvp-btn {
-    font-size: 0.9rem;
-    padding: 10px 25px;
-    min-width: 180px;
-  }
-  
-  .note-content {
-    padding: 1rem;
-  }
-  
-  .note-content h4 {
-    font-size: 1.1rem;
+    font-size: 0.7rem;
+    padding: 8px 16px;
   }
 }
