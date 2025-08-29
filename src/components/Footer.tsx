@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <div className="footer-info">
             <div className="footer-section">
               <h4>Ubicación</h4>
-              <p>SalónAguas Blancas<br />
+              <p>Salón Aguas Blancas<br />
               Rawson, San Juan</p>
             </div>
             

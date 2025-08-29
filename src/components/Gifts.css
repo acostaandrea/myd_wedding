@@ -1,0 +1,252 @@
+.gifts {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 50%, #ffe082 100%);
+  position: relative;
+}
+
+.gifts::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.gifts-content {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.gifts-header {
+  margin-bottom: 3rem;
+}
+
+.decorative-header {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.decorative-bow {
+  width: 60px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  border-radius: 50% 50% 0 0;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
+}
+
+.decorative-bow::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+
+.decorative-lines {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  background: var(--primary-gold);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+.line.left::after {
+  right: -5px;
+}
+
+.line.right::after {
+  left: -5px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #8d6e63;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gifts-message {
+  margin-bottom: 3rem;
+}
+
+.message-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.main-message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #8d6e63;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.alias-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border-radius: 15px;
+  border: 2px solid var(--primary-gold);
+}
+
+.alias-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #8d6e63;
+  font-weight: 600;
+}
+
+.alias-value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  color: #8d6e63;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.closing-message {
+  margin-top: 2rem;
+}
+
+.thank-you-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #8d6e63;
+  line-height: 1.6;
+  margin: 0;
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .gifts-content {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .message-card {
+    padding: 2rem;
+    margin: 0 1rem;
+  }
+  
+  .main-message {
+    font-size: 1.1rem;
+  }
+  
+  .alias-section {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .alias-label,
+  .alias-value {
+    font-size: 1rem;
+  }
+  
+  .thank-you-text {
+    font-size: 1.2rem;
+  }
+  
+  .decorative-lines {
+    padding: 0 10px;
+  }
+  
+  .line {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .message-card {
+    padding: 1.5rem;
+  }
+  
+  .main-message {
+    font-size: 1rem;
+  }
+  
+  .alias-section {
+    padding: 1rem;
+  }
+  
+  .alias-label,
+  .alias-value {
+    font-size: 0.9rem;
+  }
+  
+  .thank-you-text {
+    font-size: 1.1rem;
+  }
+  
+  .decorative-bow {
+    width: 50px;
+    height: 35px;
+  }
+  
+  .decorative-bow::before {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .line {
+    width: 40px;
+  }
+}
