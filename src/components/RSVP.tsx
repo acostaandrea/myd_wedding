@@ -25,19 +25,19 @@ const RSVP: React.FC = () => {
                 <svg className="feature-icon" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
                 </svg>
-                <span>Confirmación rápida y fácil</span>
+                <span>Por favor confirma tu asistencia antes del 03 de octubre</span>
               </div>
               <div className="feature-item">
                 <svg className="feature-icon" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H17c-.8 0-1.54.37-2.01 1l-1.7 2.26V9c0-.55-.45-1-1-1s-1 .45-1 1v6h2v7h3z"/>
                 </svg>
-                <span>Incluye información de acompañantes</span>
+                <span>Para consultas especiales, contáctanos directamente</span>
               </div>
               <div className="feature-item">
                 <svg className="feature-icon" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/>
                 </svg>
-                <span>Opciones de regalo sugeridas</span>
+                <span>Código de vestimenta: Extrictamente Formal</span>
               </div>
             </div>
             
@@ -45,18 +45,6 @@ const RSVP: React.FC = () => {
               <button onClick={handleRSVPClick} className="btn rsvp-btn">
                 Confirmar Asistencia
               </button>
-            </div>
-          </div>
-
-          <div className="rsvp-note slide-in-right">
-            <div className="note-content">
-              <h4>Información Importante</h4>
-              <ul>
-                <li>Por favor confirma tu asistencia antes del 15 de octubre</li>
-                <li>Si tienes alguna restricción alimentaria, indícalo en el formulario</li>
-                <li>Para consultas especiales, contáctanos directamente</li>
-                <li>Tu presencia es el mejor regalo que podemos recibir</li>
-              </ul>
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <div className="footer-info">
             <div className="footer-section">
               <h4>Ubicación</h4>
-              <p>Agua Blanca<br />
+              <p>SalónAguas Blancas<br />
               Rawson, San Juan</p>
             </div>
             
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           
           <div className="footer-bottom">
             <p className="footer-copyright">
-              © 2024 Mirtha & Daniel - Hecho con ❤️ para nuestro día especial
+              © 2025 Mirtha & Daniel - Hecho con ❤️ para nuestro día especial
             </p>
           </div>
         </div>

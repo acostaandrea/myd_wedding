@@ -20,7 +20,7 @@ const Location: React.FC = () => {
 
           <div className="location-main slide-in-right">
             <div className="venue-info">
-              <h3 className="venue-name">Agua Blanca</h3>
+              <h3 className="venue-name">Salón Aguas Blancas</h3>
               <div className="venue-details">
                 <div className="venue-item">
                   <svg className="venue-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -61,18 +61,7 @@ const Location: React.FC = () => {
                 </button>
               </div>
             </div>
-          </div>
-
-          <div className="location-note slide-in-left">
-            <div className="note-card">
-              <h4>💡 Consejo</h4>
-              <p>
-                Te recomendamos llegar con anticipación para encontrar estacionamiento 
-                y disfrutar del cóctel de bienvenida. El lugar cuenta con todas las 
-                comodidades para que disfrutes de esta celebración especial.
-              </p>
-            </div>
-          </div>
+          </div>          
         </div>
       </div>
     </section>

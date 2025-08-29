@@ -39,7 +39,7 @@ const SaveDate: React.FC = () => {
     const eventTitle = encodeURIComponent('Boda de Mirtha & Daniel');
     const eventDate = '20251025T200000';
     const eventEndDate = '20251026T040000';
-    const eventLocation = encodeURIComponent('Agua Blanca, Entre Abraham Tapia y C. Vieja, Rawson, San Juan');
+    const eventLocation = encodeURIComponent('Aguas Blancas, Entre Abraham Tapia y C. Vieja, Rawson, San Juan');
     const eventDescription = encodeURIComponent('Celebración de la boda de Mirtha y Daniel. ¡Los esperamos para compartir este día tan especial!');
     
     const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${eventTitle}&dates=${eventDate}/${eventEndDate}&location=${eventLocation}&details=${eventDescription}`;
@@ -83,7 +83,7 @@ const SaveDate: React.FC = () => {
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                 </svg>
                 <h3>Lugar</h3>
-                <p>Agua Blanca</p>
+                <p>Salón Aguas Blancas</p>
               </div>
             </div>
           </div>
