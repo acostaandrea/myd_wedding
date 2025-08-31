@@ -40,8 +40,7 @@ const Details: React.FC = () => {
 
           <div className="closing-message slide-in-left">
             <p className="message-text">
-              "El amor no tiene edad, tiene vida. Y después de 34 años de espera, 
-              finalmente celebramos nuestro día más especial juntos."
+              "Los esperamos para celebrar nuestro día especial, juntos."
             </p>
           </div>
         </div>
