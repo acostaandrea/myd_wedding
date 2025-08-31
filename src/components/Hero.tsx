@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded }) => {
             </h1>            
             
             <div className="hero-description">
-              <p>Un amor que esperó 34 años</p>              
+              <p>El amor no tiene edad, tiene vida</p>              
             </div>
             
             <div className="hero-cta">
