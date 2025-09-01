@@ -10,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded }) => {
     <section className={`hero ${isLoaded ? 'fade-in' : ''}`}>
       <div className="hero-background">
         <img 
-          src="/wedding2.jpg" 
+          src="/AdobeStock_764617449.jpeg" 
           alt="Mirtha y Daniel" 
           className="hero-image"
         />
